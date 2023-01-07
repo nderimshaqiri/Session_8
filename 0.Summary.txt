@@ -27,6 +27,10 @@ Dallimi ndermjet display:flex dhe display:grid
       grid-row-end: ku perfundon kolona 
       grid-column: 
 
+
+auto-fit
+auto-fil
+
    
                           
     
