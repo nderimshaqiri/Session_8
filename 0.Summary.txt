@@ -1,0 +1,33 @@
+8.1.GRID Layout
+
+Dallimi ndermjet display:flex dhe display:grid 
+ - kur kemi te bejme me struktura nje dimensionale horizontalisht ose vertikalisht preferohet qe te perdoret flexbox ndersa kur strukturat jane ne form te Grid (matrices) pra 2 Dimensionale (kolona & rreshta) perdoert Grid Layout (psh gallery) 
+ - Grid permban;
+   1. rreshta
+   2. kolona
+   3. gap (hapesira)
+   4. 
+
+   Kur nuk i specifikojme kalkulohen ne menyre automatike
+   Kur kemi perseritje te shumte te fr (fraction) e perdorim "repeat"
+   repeat (10, 1fr) e perserit 10x1fr
+
+   mund ta perdorim 1 per rreshta dhe kolona grid-template: qe se pari i pranon rreshtat pastaj kolonat 
+
+   mund ta perdorim 1 per gepatt rreshta dhe gepat kolona
+   column-gap: 20px;
+   row-gap: 20px;
+   gap: 20px;
+
+   Per me e zhvendos nje celule psh 8 tek 4 duhet t specifikojme dy veti;
+   1. grid-row-start: ku fillon rreshti
+      grid-row-end: ku perfundon rreshti 
+      grid-row:
+   2. grid-row-start: ku fillon kolona
+      grid-row-end: ku perfundon kolona 
+      grid-column: 
+
+   
+                          
+    
+
