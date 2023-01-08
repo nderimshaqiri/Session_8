@@ -12,23 +12,30 @@
            margin: 0px;
            box-sizing: border-box;}
 
+           ul {list-style-type: none;
+               display: flex;}
+
+           ul li {margin-left: 30px;}
+
+           .menu-icon {display: none;}
+
+
            /* Telefon */
         @media (max-width: 600px) 
               {
-                header {height: 120pxo;
-                        padding: 20px 100px;
+                header {height: 80px;
+                        padding: 20px 50px;
                         background-color: rgb(227, 236, 245);
                         display: flex;
-                        flex-direction: column;
+                        flex-direction: row;
                         justify-content: space-between;
                         align-items: center;}
 
                 img     {height: 50px;}
 
-                ul      {list-style-type: none;
-                         display: flex;}
+                ul {display: none;}
 
-                ul li {margin-left: 30px;}
+                .menu-icon {display: block;}
               }
 
                /* Tablet */
@@ -43,11 +50,6 @@
                         align-items: center;}
 
                 img     {height: 50px;}
-
-                ul      {list-style-type: none;
-                         display: flex;}
-
-                ul li {margin-left: 30px;}
               }        
               
               /* Laptop/Desktop */
@@ -62,11 +64,6 @@
                         align-items: center;}
 
                 img     {height: 66px;}
-
-                ul      {list-style-type: none;
-                         display: flex;}
-
-                ul li {margin-left: 30px;}
               }                   
               
 
@@ -82,6 +79,7 @@
                     <li><a href="#">Training</a></li>
                     <li><a href="#">Contact</a></li>
                 </ul>
+                <img src="./assets/images/menu.PNG" alt="menu icon" class="menu-icon"/>
             </nav>
     </header>
 
