@@ -69,6 +69,34 @@ Mundemi me dite kur eshte pajisja landscape ose portret me 'orentation'
 box-sizing: border-box; ne at width qe e specifikojme aty me u llogarite width borderi, padding edhe margin
  
 
+
+8.6. SASS
+
+SASS - Syntactically Awesome Style Sheets 
+       gjuhe skriptuese qe kompilohet 
+
+SASS ka dy sintaksa:
+       1. Me kllapa gjarpërore (hapëse dhe mbyllëse) (emertimi i file-ve eshte .scss)
+       2. Me shtyrje (të shtyrit e kodit anësh - njejtë sikurse në Python. (emertimi i file-ve eshte .sass)
+
+       Kompilohet në skeda të tipit .css (del css i paster si me 1. sikur me 2.)
+
+Prapashtesa e skedave të Sass mund të jetë .scss ose .sass
+
+Te jep me shume fleksibiltet ne pune
+
+Cka ka ne SASS 
+1. Variabla 
+2. Operatoret (mbledhje, shumezim, pjestim)
+3. Foleizimi (me folejzu kodin)
+4. Partial (me nda kodin ne menyre logjike qe e mundeson krijimin e moduleve)
+5. Modulet
+6. Mixins
+7. Trashegimia
+8. Funsionet
+9. Kushtet (if, nese plotesohet nje kusht me ndodh psh nje CSS)
+10. looph?
+
  
 
 
