@@ -35,8 +35,40 @@ auto-fill: del sa e caktojme width ndersa pjesa tjeter rezervohet por nuk mbushe
 minmax(80px, 1fr) - width minimal 80px dhe maksimal 1 fraction 
 
 
-RESPONSIVE DESIGN
+
+8.5. RESPONSIVE DESIGN
+
 Dmth kur te njejten web faqe e hapin ne desktop/laptop, tablet ose telefon e kemi te lehte ta lexojme, lehte e navigueshme dhe bukur e organizuar ajo web faqe. Pra adaptohet per paisje me display te ndryshem.
+
+Për të krijuar ueb sajte të adaptueshme për madhësi të ndryshme
+pajisjesh duhet të përdorim Media Queries (@media)
+Për të qenë në mundësi të përdorim media queries duhet të vendosim
+edhe  <meta name="viewport" content="width=device-width, initial-scale=1.0">  në etiketën <head> të dokumentit.
+
+Si definohen Media Queries?
+- @media
+
+
+Sa vler perban?
+1. all  (per te gjitha 3 me poshte)
+2. print (kur dikush don ta printoj page e web-faqes)
+3. screen (per cdo paisje)
+4. speach (screenreaders qe i lexon faqet me za, per persona me aftesi te vecanta)
+
+Nese e perdor @media only atehere ke te besh vetem me nje media type (all, print, screen ose speach)
+
+mediafeature - me definu range (fillimi-perfundimi)
+
+Nga 500px e poshte ose deri 500px @media only print and (max-width: 500px) 0-500px
+Nga 500px e larte ose mbi 500px @media only print and (min-width: 500px) 500px+
+
+Media queries - Orentimi
+Mundemi me dite kur eshte pajisja landscape ose portret me 'orentation'
+
+
+box-sizing: border-box; ne at width qe e specifikojme aty me u llogarite width borderi, padding edhe margin
+ 
+
  
 
 

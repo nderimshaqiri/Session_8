@@ -1,1 +1,66 @@
- 
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+
+        @media only screen and (max-width: 600px)
+               {
+                h1 {
+                    font-size: 50px;
+                    color: red;
+                }
+
+                p {
+                    font-size: 25px;
+                }
+               }
+
+        @media only screen and (min-width: 600px)
+               {
+                h1 {
+                    font-size: 50px;
+                    color: rgb(25, 0, 255);
+                }
+
+                p {
+                    font-size: 25px;
+                }
+               }     
+
+        @media only screen and (min-width: 700px)
+               {
+                h1 {
+                    display: none;
+                }
+
+                p {
+                    font-size: 30px;
+                }
+               }    
+               
+        @media only screen and (orientation: portrait) 
+                {
+                    body {background-color: antiquewhite;}
+                }      
+
+        @media only screen and (orientation: landscape) 
+                {
+                    body {background-color:aquamarine}
+                    h1, p {text-align: center;}
+                }            
+
+    </style>
+
+ </head>
+ <body>
+    <h1>Responsive Design</h1>
+    <p>
+        Dmth kur te njejten web faqe e hapin ne desktop/laptop, tablet ose telefon e kemi te lehte ta lexojme, lehte e navigueshme dhe bukur e organizuar ajo web faqe. Pra adaptohet per paisje me display te ndryshem.
+    </p>
+ </body>
+ </html>
