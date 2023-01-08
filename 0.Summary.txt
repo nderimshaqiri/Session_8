@@ -28,8 +28,18 @@ Dallimi ndermjet display:flex dhe display:grid
       grid-column: 
 
 
-auto-fit
-auto-fil
+auto-fit: del sa ka width total. nese i kemi thene auto-fit minmax(80px, 1fr) do ta kete nje fraksion sa i gjihte width i caktuar. Nese i kemi pasur 3 child ateher qe te 3 do te kene shtirjre sa i gjithe width, nese shtojm nje atehere do ti kemi 4, ndersa 3 do te zvogelohen qe ti behet vendi 4 child dhe te gjitha e kane madhesin e njejte.
+
+auto-fill: del sa e caktojme width ndersa pjesa tjeter rezervohet por nuk mbushet, nuk ka shtrirje. Nese i kemi thene auto-fit minmax(80px, 1fr) atehere minimumi do te jete 80px 
+
+minmax(80px, 1fr) - width minimal 80px dhe maksimal 1 fraction 
+
+
+RESPONSIVE DESIGN
+Dmth kur te njejten web faqe e hapin ne desktop/laptop, tablet ose telefon e kemi te lehte ta lexojme, lehte e navigueshme dhe bukur e organizuar ajo web faqe. Pra adaptohet per paisje me display te ndryshem.
+ 
+
+
 
    
                           
