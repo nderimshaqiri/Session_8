@@ -12,43 +12,63 @@
            margin: 0px;
            box-sizing: border-box;}
 
-        @media (max-width: 600px;) 
+        @media (max-width: 600px) 
               {
                 
               }
 
-        @media (min-width: 600px;) 
+               /* Tablet */
+        @media (min-width: 600px) 
               {
-                
-              }        
-        
-              /*ok*/
-              
-        @media (min-width: 1200px;) 
-              {
-                header {background-color: aliceblue;
-                        height: 100px;
-                        display: flex;}
-                img {height: 60px;}
+                header {height: 120pxo;
+                        padding: 20px 100px;
+                        background-color: rgb(227, 236, 245);
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: space-between;
+                        align-items: center;}
 
-                ul {list-style-type: none;
-                    display: flex;}
-              }     
+                img     {height: 50px;}
+
+                ul      {list-style-type: none;
+                         display: flex;}
+
+                ul li {margin-left: 30px;}
+              }        
               
+              /* Laptop/Desktop */
+        @media (min-width: 1200px) 
+              {
+                header {height: 100px;
+                        padding: 0 100px;
+                        background-color: aliceblue;
+                        display: flex;
+                        justify-content: space-between;
+                        align-items: center;}
+
+                img     {height: 66px;}
+
+                ul      {list-style-type: none;
+                         display: flex;}
+
+                ul li {margin-left: 30px;}
+              }                   
               
 
     </style>
     
 </head>
 <body>
-    <header><img src="https://perprogramera.com/wp-content/uploads/2022/08/logo.png" alt="perprogramera"></header>
-    <nav>
-        <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">Story</a></li>
-            <li><a href="#">Training</a></li>
-            <li><a href="#">Contact</a></li>
-        </ul>
-    </nav>
+    <header><img src="https://perprogramera.com/wp-content/uploads/2022/08/logo.png" alt="perprogramera">
+            <nav>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Story</a></li>
+                    <li><a href="#">Training</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+    </header>
+
 </body>
 </html>
