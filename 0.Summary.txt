@@ -104,3 +104,10 @@ Variablat fillojne me shenje e dollarit $ pastaj emrin e variables, mund te kene
 OPERATORET 
 Mund te perdoren per te kalkuluar dicka.
 Operatoret aritmetike bazik (+,-, *, /,% (modulus, metje pas pjeseimit))
+
+
+
+FOLEIZIMI (nest)
+nese kemi tag nav ne html, brenda tag nav tag ul dhe brenda ul disa li me tag-un a brenda mundemi ti bejme nest 
+Mos e praktikoni Foleizimin e thelle, ose shume te shtresuar. 
+I mundeson disa gjera interesante is 
