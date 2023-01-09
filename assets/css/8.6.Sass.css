@@ -2,4 +2,9 @@
 body {
   color: rgb(90, 89, 89);
   font-family: "Open Sans", sans-serif;
-}/*# sourceMappingURL=Sass_Variablat.css.map */
+}
+
+.container {
+  width: 960px;
+  background-color: aquamarine;
+}/*# sourceMappingURL=8.6.Sass.css.map */
