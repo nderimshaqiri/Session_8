@@ -97,13 +97,10 @@ Cka ka ne SASS
 9. Kushtet (if, nese plotesohet nje kusht me ndodh psh nje CSS)
 10. looph?
 
-Variablat fillojne me shenje e dollarit $ pastaj emrin e variables, mund te kene simbolin minus (-) dhe underline (_) por nuk duhet te kene karaktere speciale po ashtu nuk mund te fillojne me numra. Benefiti nga Variablat eshte e njejta sikur ne CSS3 per ti riperdorur edhe kur vjen puna tek ndonje ndryshim eventual me pas ndryshimin e centralizum mos me pas nevoje me shku ne shume vende per me bo ndryshime 
-
- 
+Variablat fillojne me shenje e dollarit $ pastaj emrin e variables, mund te kene simbolin minus (-) dhe underline (_) por nuk duhet te kene karaktere speciale po ashtu nuk mund te fillojne me numra. Benefiti nga Variablat eshte e njejta sikur ne CSS3 per ti riperdorur edhe kur vjen puna tek ndonje ndryshim eventual me pas ndryshimin e centralizum mos me pas nevoje me shku ne shume vende per me bo ndryshime.
 
 
 
-   
-                          
-    
-
+OPERATORET 
+Mund te perdoren per te kalkuluar dicka.
+Operatoret aritmetike bazik (+,-, *, /,% (modulus, metje pas pjeseimit))
