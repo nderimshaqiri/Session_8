@@ -21,28 +21,19 @@ $container: 960px;
        background-color: rgb(99, 251, 201);
        padding: 10px 20px;}
 
+       .half {width: $container / 2;
+            background-color: rgb(99, 251, 201);
+            padding: 10px 20px;}
 
-
-
-// FOLEIZIMI //   
-
-header {
-      nav { background-color: bisque;}
-}
-
-/* header {    img {}
-
-            nav { background-color:bisque;
-            ul {padding: 0;
+header { img {} 
+      nav { background-color: rgb(251, 238, 222);
+            ul {
+                padding: 10px 50px;
                 margin: 0;
                 display: flex;
-                justify-content: space-around;}
+                justify-content: space-around; 
+                list-style-type: none;  
+            }
             li {}
-            a {}}
-  
-} */
-
-
-
-
-
+             a {}
+      }}

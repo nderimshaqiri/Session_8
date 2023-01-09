@@ -15,4 +15,21 @@ body {
   width: 480px;
   background-color: rgb(99, 251, 201);
   padding: 10px 20px;
+}
+
+.half {
+  width: 480px;
+  background-color: rgb(99, 251, 201);
+  padding: 10px 20px;
+}
+
+header nav {
+  background-color: rgb(251, 238, 222);
+}
+header nav ul {
+  padding: 10px 50px;
+  margin: 0;
+  display: flex;
+  justify-content: space-around;
+  list-style-type: none;
 }/*# sourceMappingURL=8.6.Sass.css.map */
