@@ -1,12 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,500;1,400&display=swap'); 
 
-
 // VARIABLAT //
 $primary-color: rgb(90, 89, 89);
 $font:  'Open Sans', sans-serif;
 
 body {color: $primary-color;
-    font-family: $font;}
+      font-family: $font;}
 
 
     
@@ -18,5 +17,7 @@ $container: 960px;
             padding: 0px 20px; /* 20+20=40 */
             background-color: aquamarine;}
 
-.container-half {width: $container / 2;}
+.half {width: $container / 2;
+       background-color: rgb(99, 251, 201);
+       padding: 10px 20px;}
 

@@ -11,6 +11,8 @@ body {
   background-color: aquamarine;
 }
 
-.container-half {
+.half {
   width: 480px;
+  background-color: rgb(99, 251, 201);
+  padding: 10px 20px;
 }/*# sourceMappingURL=8.6.Sass.css.map */
