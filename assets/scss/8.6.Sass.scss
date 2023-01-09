@@ -25,7 +25,12 @@ $container: 960px;
 
 
 // FOLEIZIMI //   
-header {    img {}
+
+header {
+      nav { background-color: bisque;}
+}
+
+/* header {    img {}
 
             nav { background-color:bisque;
             ul {padding: 0;
@@ -35,7 +40,7 @@ header {    img {}
             li {}
             a {}}
   
-}
+} */
 
 
 
