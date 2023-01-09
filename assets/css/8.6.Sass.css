@@ -32,4 +32,15 @@ header nav ul {
   display: flex;
   justify-content: space-around;
   list-style-type: none;
+}
+header nav li {
+  font-style: italic;
+}
+header nav a {
+  font-size: 20px;
+  color: black;
+  transition: all 0.5s ease-in;
+}
+header nav a:hover {
+  background-color: rgb(99, 251, 201);
 }/*# sourceMappingURL=8.6.Sass.css.map */
