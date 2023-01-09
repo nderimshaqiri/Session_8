@@ -79,7 +79,7 @@ SASS ka dy sintaksa:
        1. Me kllapa gjarpërore (hapëse dhe mbyllëse) (emertimi i file-ve eshte .scss)
        2. Me shtyrje (të shtyrit e kodit anësh - njejtë sikurse në Python. (emertimi i file-ve eshte .sass)
 
-       Kompilohet në skeda të tipit .css (del css i paster si me 1. sikur me 2.)
+       Kompilohet në skeda të tipit .css (del css i paster si me 1. sikur me)
 
 Prapashtesa e skedave të Sass mund të jetë .scss ose .sass
 
@@ -96,6 +96,8 @@ Cka ka ne SASS
 8. Funsionet
 9. Kushtet (if, nese plotesohet nje kusht me ndodh psh nje CSS)
 10. looph?
+
+Variablat fillojne me shenje e dollarit $ pastaj emrin e variables
 
  
 
