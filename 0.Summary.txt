@@ -131,7 +131,7 @@ Sintaksa per me kriju mixin eshte @mixin transform($property) vlerat qe i marrin
 
 
 
-TRASHEGIMIA 
+TRASHEGIMIA - inheritanca
 Ka raste kur disa elemente ndajnë një numër të konsiderueshëm të
 karakteristikave të përbashkëta.
 Që të mund të arrijmë benefitin e ripërdorimit të disa karakteristikave
