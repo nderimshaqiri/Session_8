@@ -139,3 +139,7 @@ dhe më pas të shtohen karakteristika të reja ne mund të përdorim
 trashëgiminë që e ofrohet nga Sass
 
 
+
+FUNKSIONET
+Njejt si mixins edhe funksionet mundesojne te perdorim nje logjik  te caktuar, vetem se ne kete rast nuk eshte nje CSS por eshte nje logjik mbrapa. 
+Funsionet ne Sass gjithmojne e bejne return (e kthejne nje vlere te caktuar)

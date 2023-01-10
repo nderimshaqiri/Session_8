@@ -59,11 +59,13 @@ $container: 960px;
 // MODULET //
        
 // TRASHEGIMIA - inheritanca //
-      %alert {border: 1px solid;
-              padding: 10px;
-              margin-bottom: 15px;
-              border-radius: 6px;
-              font-size: 11px; }
+
+      %alert { width: calculateperc(960px, 800px);
+               border: 1px solid;
+               padding: 10px;
+               margin-bottom: 15px;
+               border-radius: 6px;
+               font-size: 11px; }
 
       .alert {@extend %alert} 
       
@@ -89,3 +91,22 @@ $container: 960px;
             .alert-success {@include composeAlert ( rgb(169, 210, 191), rgb(209, 231, 221), rgb(56, 131, 96))}  
             
             .alert-danger {@include composeAlert (rgb(241, 173, 180), rgb(248, 215, 218), rgb(179, 50, 62))}
+
+
+
+// FUNKSIONET //
+      @function calculateperc($wc, $we) {@return $we / $wc * 100%; }
+
+      //wc=container width,   we=elemente width//
+
+  
+      .container { width: 960px;
+                   background-color: rgb(235, 245, 253);  }
+
+
+
+
+
+
+
+
