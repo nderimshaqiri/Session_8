@@ -61,4 +61,16 @@ $container: 960px;
 // TRASHEGIMIA - inheritanca //
       %alert {border: 1px solid;
               padding: 10px;
-              margin-bottom: 15px;  }
+              margin-bottom: 15px;
+              border-radius: 6px;
+              font-size: 11px; }
+
+      .alert {@extend %alert} 
+      
+      .alert-primary {border-color: rgb(156, 196, 254);
+                      background-color: rgb(207, 226, 255);
+                      color: rgb(49, 74, 201); } 
+
+      .alert-secondary {border-color: rgb(273, 240, 242);
+                        background-color: rgb(248, 249, 250);
+                        color: rgb(153, 134, 141); }                 

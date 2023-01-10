@@ -53,4 +53,24 @@ li {
   padding: 10px;
   margin: 10px;
   border: 1px solid black;
+}
+
+.alert {
+  border: 1px solid;
+  padding: 10px;
+  margin-bottom: 15px;
+  border-radius: 6px;
+  font-size: 11px;
+}
+
+.alert-primary {
+  border-color: rgb(156, 196, 254);
+  background-color: rgb(207, 226, 255);
+  color: rgb(49, 74, 201);
+}
+
+.alert-secondary {
+  border-color: rgb(255, 240, 242);
+  background-color: rgb(248, 249, 250);
+  color: rgb(153, 134, 141);
 }/*# sourceMappingURL=8.6.Sass.css.map */
