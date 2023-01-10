@@ -21,25 +21,39 @@ $container: 960px;
        background-color: rgb(99, 251, 201);
        padding: 10px 20px;}
 
-       .half {width: $container / 2;
-            background-color: rgb(99, 251, 201);
-            padding: 10px 20px;}
 
-header { img {} 
-      nav { background-color: rgb(251, 238, 222);
-            ul {
-                padding: 10px 50px;
-                margin: 0;
-                display: flex;
-                justify-content: space-around; 
-                list-style-type: none;  
-            }
-            li {font-style: italic;}
-             a {font-size: 20px;
-                color: black;
-                transition: all 0.5s ease-in;
-                &:hover  {background-color: rgb(99, 251, 201);}
-                }
 
-             a:hover {}
-      }}
+ // FOLEIZIMI //  
+      header {  
+            nav { background-color: rgb(251, 238, 222);
+                  ul {
+                  padding: 10px 50px;
+                  margin: 0;
+                  display: flex;
+                  justify-content: space-around; 
+                  list-style-type: none;  
+                  }
+                  li {font-style: italic;}
+                  a {font-size: 20px;
+                  color: black;
+                  transition: all 0.5s ease-in;
+                  &:hover  {background-color: rgb(99, 246, 251);}
+                  }
+            }}
+
+
+ // PARTIALS //
+      @import 'Partials';
+       header {background-color: $bg;}
+
+
+
+ // MODULET //
+      @import 'Mixins';
+        .card {@include card(20px, 1px, 15px)}  
+        
+        li {@include card(10px, 1px, 10px)}
+
+
+       
+// MODULET //

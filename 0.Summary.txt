@@ -100,14 +100,42 @@ Cka ka ne SASS
 Variablat fillojne me shenje e dollarit $ pastaj emrin e variables, mund te kene simbolin minus (-) dhe underline (_) por nuk duhet te kene karaktere speciale po ashtu nuk mund te fillojne me numra. Benefiti nga Variablat eshte e njejta sikur ne CSS3 per ti riperdorur edhe kur vjen puna tek ndonje ndryshim eventual me pas ndryshimin e centralizum mos me pas nevoje me shku ne shume vende per me bo ndryshime.
 
 
-
 OPERATORET 
 Mund te perdoren per te kalkuluar dicka.
 Operatoret aritmetike bazik (+,-, *, /,% (modulus, metje pas pjeseimit))
-
 
 
 FOLEIZIMI (nest)
 nese kemi tag nav ne html, brenda tag nav tag ul dhe brenda ul disa li me tag-un a brenda mundemi ti bejme nest 
 Mos e praktikoni Foleizimin e thelle, ose shume te shtresuar. 
 I mundeson disa gjera interesante is 
+
+
+PARTIALS 
+Partials janë skeda të posatshme emri i të cilave fillon me '_'
+Mundësojnë ripërdorim të kodi sepse at file e perdorim ne file baze .scss duke perdorur @import 'PARTIALS';
+Nuk kompilohen (nuk krijojhet file .css )
+Permes partials ne mundemi me modularizu kodin dmth secilin qe e kemi e kemi ne file te vecante
+
+
+MODULET
+Përmes përdorimit të partials ne mund ta ndajm kodin në module 
+
+
+MIXINS 
+Shpesh kemi raste kur vetitë e njejta duhet të përsëriten në stilizimin (vetit e caktuara ne elemente qe ju ndrron vetem vlera ) e më shumë elementeve (vetëm se dallojnë vlerat që pranojnë).
+Këto lloj përsëritjesh Sass i eleminon me @mixin
+@mixin-i bëhet i qasshëm për përdorim me komandën @include
+Sintaksa per me kriju mixin eshte @mixin transform($property) vlerat qe i marrin vetit qe jane brenda mixin, ne kete rast property qe i sherben transform-it 
+"Psh 10 elemente qe perdorin transform mirepo 2 prej tyre jane me rotate, 2 te tjera me matrix, etj rrjedhimisht duhet te njejten gje me perdor disa here. Per mos ta bere kete duhet me kriju mixins te cilat riperdoren, vetem i krijon mixins me nje partial file edhe vendos _mixins.scss edhe krejt aty cka ke mundesh me i bo import ne file style.scss dhe me i perdor." 
+
+
+
+TRASHEGIMIA 
+Ka raste kur disa elemente ndajnë një numër të konsiderueshëm të
+karakteristikave të përbashkëta.
+Që të mund të arrijmë benefitin e ripërdorimit të disa karakteristikave
+dhe më pas të shtohen karakteristika të reja ne mund të përdorim
+trashëgiminë që e ofrohet nga Sass
+
+

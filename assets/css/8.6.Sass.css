@@ -17,12 +17,6 @@ body {
   padding: 10px 20px;
 }
 
-.half {
-  width: 480px;
-  background-color: rgb(99, 251, 201);
-  padding: 10px 20px;
-}
-
 header nav {
   background-color: rgb(251, 238, 222);
 }
@@ -42,5 +36,21 @@ header nav a {
   transition: all 0.5s ease-in;
 }
 header nav a:hover {
-  background-color: rgb(99, 251, 201);
+  background-color: rgb(99, 246, 251);
+}
+
+header {
+  background-color: red;
+}
+
+.card {
+  padding: 20px;
+  margin: 15px;
+  border: 1px solid black;
+}
+
+li {
+  padding: 10px;
+  margin: 10px;
+  border: 1px solid black;
 }/*# sourceMappingURL=8.6.Sass.css.map */
