@@ -73,4 +73,31 @@ li {
   border-color: rgb(255, 240, 242);
   background-color: rgb(248, 249, 250);
   color: rgb(153, 134, 141);
-}/*# sourceMappingURL=8.6.Sass.css.map */
+}
+
+/* 
+          @mixin composeAlert ($b, $bc, $c)
+                     {border-color: $b;
+                      background-color: $bc;
+                      color: $c;  } */
+.alert-success {
+  border-color: rgb(169, 210, 191);
+  background-color: rgb(209, 231, 221);
+  color: rgb(56, 131, 96);
+}
+
+.alert-danger {
+  border-color: rgb(241, 173, 180);
+  background-color: rgb(248, 215, 218);
+  color: rgb(179, 50, 62);
+}
+
+/*       .alert-success { 
+                      border-color: rgb(169, 210, 191);
+                      background-color: rgb(209, 231, 221);
+                      color: rgb(56, 131, 96);  
+                       }        */
+/*       .alert-danger {border-color: rgb(241, 173, 180);
+                      background-color: rgb(248, 215, 218);
+                      color: rgb(179, 50, 62); }                       
+ *//*# sourceMappingURL=8.6.Sass.css.map */

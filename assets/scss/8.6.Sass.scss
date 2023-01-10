@@ -74,3 +74,30 @@ $container: 960px;
       .alert-secondary {border-color: rgb(273, 240, 242);
                         background-color: rgb(248, 249, 250);
                         color: rgb(153, 134, 141); }                 
+      
+
+          // ose me MIXING // 
+/* 
+          @mixin composeAlert ($b, $bc, $c)
+                     {border-color: $b;
+                      background-color: $bc;
+                      color: $c;  } */
+
+                      
+            @import 'Mixins';
+            
+            .alert-success {@include composeAlert ( rgb(169, 210, 191), rgb(209, 231, 221), rgb(56, 131, 96))}  
+            
+            .alert-danger {@include composeAlert (rgb(241, 173, 180), rgb(248, 215, 218), rgb(179, 50, 62))}
+
+
+/*       .alert-success { 
+                      border-color: rgb(169, 210, 191);
+                      background-color: rgb(209, 231, 221);
+                      color: rgb(56, 131, 96);  
+                       }        */                    
+                         
+/*       .alert-danger {border-color: rgb(241, 173, 180);
+                      background-color: rgb(248, 215, 218);
+                      color: rgb(179, 50, 62); }                       
+ */
