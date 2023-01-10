@@ -55,5 +55,10 @@ $container: 960px;
         li {@include card(10px, 1px, 10px)}
 
 
-       
+
 // MODULET //
+       
+// TRASHEGIMIA - inheritanca //
+      %alert {border: 1px solid;
+              padding: 10px;
+              margin-bottom: 15px;  }
