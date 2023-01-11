@@ -1,0 +1,30 @@
+$icons: (
+          'smile'  '😃', 
+          'baby'  '👶',
+          'teacher'  '👨‍🏫',
+          'angry'  '😡'
+        );
+
+$sizes: ( 
+          'small': 24px,  
+          'medium': 48px, 
+          'large': 96px,
+          'xl': 150px 
+        );
+
+    @each $name, $icon in $icons {
+         @each $n, $s in $sizes { 
+            .icon-#{$name}-#{$n}::before {
+                content: $icon; 
+                font-size: $s;
+            }
+        }
+        
+    } 
+
+
+
+
+
+
+          
