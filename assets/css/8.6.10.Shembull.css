@@ -1,0 +1,80 @@
+@charset "UTF-8";
+.icon-smile-small::before {
+  content: "😃";
+  font-size: 24px;
+}
+
+.icon-smile-medium::before {
+  content: "😃";
+  font-size: 48px;
+}
+
+.icon-smile-large::before {
+  content: "😃";
+  font-size: 96px;
+}
+
+.icon-smile-xl::before {
+  content: "😃";
+  font-size: 150px;
+}
+
+.icon-baby-small::before {
+  content: "👶";
+  font-size: 24px;
+}
+
+.icon-baby-medium::before {
+  content: "👶";
+  font-size: 48px;
+}
+
+.icon-baby-large::before {
+  content: "👶";
+  font-size: 96px;
+}
+
+.icon-baby-xl::before {
+  content: "👶";
+  font-size: 150px;
+}
+
+.icon-teacher-small::before {
+  content: "👨‍🏫";
+  font-size: 24px;
+}
+
+.icon-teacher-medium::before {
+  content: "👨‍🏫";
+  font-size: 48px;
+}
+
+.icon-teacher-large::before {
+  content: "👨‍🏫";
+  font-size: 96px;
+}
+
+.icon-teacher-xl::before {
+  content: "👨‍🏫";
+  font-size: 150px;
+}
+
+.icon-angry-small::before {
+  content: "😡";
+  font-size: 24px;
+}
+
+.icon-angry-medium::before {
+  content: "😡";
+  font-size: 48px;
+}
+
+.icon-angry-large::before {
+  content: "😡";
+  font-size: 96px;
+}
+
+.icon-angry-xl::before {
+  content: "😡";
+  font-size: 150px;
+}/*# sourceMappingURL=8.6.10.Shembull.css.map */
