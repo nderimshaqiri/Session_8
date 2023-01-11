@@ -154,3 +154,4 @@ Kushtet realizohen permes @if.
 
 
 @each
+ruajtjes apo strukturimit te te dhenave quhet map, cka eshte? Perbehet prej key value pairs, pra map ka disa iteams ku secili anetar eshte cift i celes vlere. 
