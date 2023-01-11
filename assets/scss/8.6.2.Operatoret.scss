@@ -1,0 +1,11 @@
+// OPERATORET //
+$container: 960px;
+
+.super { width: $container + 4px + 40px;
+         border: 2px solid rgb(243, 113, 113); /* 2+2=4 px */
+         padding: 0px 20px; /* 20+20=40 */
+         background-color: aquamarine;}
+
+.half { width: $container / 2;
+        background-color: rgb(99, 251, 201);
+        padding: 10px 20px;}

@@ -143,3 +143,10 @@ trashëgiminë që e ofrohet nga Sass
 FUNKSIONET
 Njejt si mixins edhe funksionet mundesojne te perdorim nje logjik  te caktuar, vetem se ne kete rast nuk eshte nje CSS por eshte nje logjik mbrapa. 
 Funsionet ne Sass gjithmojne e bejne return (e kthejne nje vlere te caktuar)
+
+
+
+KUSHTET
+Jane kushtezime,  me vendos nje kushte per te ekzekutuar dicka, nese plotesohet kushti ekzekutohet nje pjese e kodit, nese nuk plotesohet ekzekutohet nje pjese tjeter. 
+P.sh. bankomati (ATM), vendosim kartelen, pastaj PIN-i, nese PIN-i eshte i sakte atehere e bene deposit, terheqje, nese PIN-i eshte i passakte atehere jep error message .
+Kushtet realizohen permes @IF   

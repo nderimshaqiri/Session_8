@@ -1,0 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,500;1,400&display=swap'); 
+
+// VARIABLAT //
+$primary-color: rgb(90, 89, 89);
+$font:  'Open Sans', sans-serif;
+
+body {color: $primary-color;
+      font-family: $font;}

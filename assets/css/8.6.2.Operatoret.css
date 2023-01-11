@@ -1,0 +1,12 @@
+.super {
+  width: 1004px;
+  border: 2px solid rgb(243, 113, 113); /* 2+2=4 px */
+  padding: 0px 20px; /* 20+20=40 */
+  background-color: aquamarine;
+}
+
+.half {
+  width: 480px;
+  background-color: rgb(99, 251, 201);
+  padding: 10px 20px;
+}/*# sourceMappingURL=8.6.2.Operatoret.css.map */

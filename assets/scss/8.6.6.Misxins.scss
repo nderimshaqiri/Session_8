@@ -1,0 +1,4 @@
+@mixin composeAlert ($b, $bc, $c)
+                     {border-color: $b;
+                      background-color: $bc;
+                      color: $c;  }

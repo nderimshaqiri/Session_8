@@ -1,0 +1,5 @@
+// MODULET //
+@import 'Mixins';
+.card {@include card(20px, 1px, 15px)}  
+
+li {@include card(10px, 1px, 10px)}
