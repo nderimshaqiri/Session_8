@@ -1,3 +1,4 @@
+@charset "UTF-8";
 .p-10 {
   padding: 10px;
 }
@@ -276,4 +277,16 @@
 
 .ml-50 {
   margin-left: 50px;
+}
+
+.emoji-smile::before {
+  content: "😃";
+}
+
+.emoji-baby::before {
+  content: "👶";
+}
+
+.emoji-teacher::before {
+  content: "👨‍🏫";
 }/*# sourceMappingURL=8.6.10.@each.css.map */
