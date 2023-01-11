@@ -1,13 +1,21 @@
-$sizes: 10, 20, 30, 40, 50;
+$sizes: 10, 20, 3kushtet0, 40, 50;
 
 //me @each i iterojme, kemi me i kriju 4-lloje klasassh
 
-@each $size in $size {
+@each $size in $sizes {
     .p-#{$size}  {padding: #{$size}px; }
-    .px-#{$size} {padding: #{$size}px; }
-    .py-#{$size} {padding: #{$size}px; }
-    .pt-#{$size} {padding: #{$size}px; }
-    .pb-#{$size} {padding: #{$size}px; }
-    .pr-#{$size} {padding: #{$size}px; }
-    .pl-#{$size} {padding: #{$size}px; }
+    .px-#{$size} {padding: 0px #{$size}px; }
+    .py-#{$size} {padding: #{$size}px 0px; }
+    .pt-#{$size} {padding-top: #{$size}px; }
+    .pb-#{$size} {padding-bottom: #{$size}px; }
+    .pr-#{$size} {padding-right: #{$size}px; }
+    .pl-#{$size} {padding-left: #{$size}px; }
+
+    .m-#{$size}  {margin: #{$size}px; }
+    .mx-#{$size} {margin: 0px #{$size}px; }
+    .my-#{$size} {margin: #{$size}px 0px; }
+    .mt-#{$size} {margin-top: #{$size}px; }
+    .mb-#{$size} {margin-bottom: #{$size}px; }
+    .mr-#{$size} {margin-right: #{$size}px; }
+    .ml-#{$size} {margin-left: #{$size}px; }
 }
