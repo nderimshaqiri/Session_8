@@ -1,3 +1,4 @@
+// sizes
 $sizes: 10, 20, 3kushtet0, 40, 50;
 
 //me @each i iterojme, kemi me i kriju 4-lloje klasassh
@@ -19,3 +20,19 @@ $sizes: 10, 20, 3kushtet0, 40, 50;
     .mr-#{$size} {margin-right: #{$size}px; }
     .ml-#{$size} {margin-left: #{$size}px; }
 }
+
+
+
+
+// icons. $icons me 3 anetar e perbejne kete 'map'. Secili anetar i map eshte celes-vlere (key) dhe celese nga vlera ndahet me dy pika (:)
+$icons: ('smile': '😃', 
+          'baby': '👶',
+          'teacher': '👨‍🏫');
+
+          //*per secilen icon_name  shkojm dhe gjeneroje-iterojme dhe per secilen ikon e krijojme nje css perkates. emoji-emri i emoji-se psh na gjenerohet klasa emoji-baby. Edhe i themi before ose after dhe content eshte icona. Te .css kemi te gjeneruar 3 klasa.
+    @each $name, $icon in $icons {
+         .emoji-#{$name}::before {content: $icon;}
+    } 
+          
+        //* Shkojme tek h2 e vendosim psh nje; 
+        //* <span class="emoji-smile"></span>
