@@ -1,0 +1,15 @@
+// vars - variablat     *lth=light theme    *bg=background    *c=color
+  $lth-bg: #f3f3f3;
+  $lth-c: #333;
+  $dth-bg: #333;
+  $dth-c: #f3f3f3;
+  
+// mixin   *parameter me vlere te paradefinuar, vlera e paradefinuar e light eshte true
+@mixin theme ($light: true) {@if $light { background-color: $lth-bg;
+                                          color: $lth-c; }
+                             @else { background-color: $dth-bg;
+                                     color: $dth-c; }
+                            }
+
+// use mixin
+  body {@include theme(false);}
