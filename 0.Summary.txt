@@ -154,4 +154,10 @@ Kushtet realizohen permes @if.
 
 
 @each
-ruajtjes apo strukturimit te te dhenave quhet map, cka eshte? Perbehet prej key value pairs, pra map ka disa iteams ku secili anetar eshte cift i celes vlere. 
+ruajtjes apo strukturimit te te dhenave quhet map, cka eshte? Perbehet prej key value pairs, pra map ka disa iteams ku secili anetar eshte cift i celes vlere. .
+
+
+
+@for
+Edhe me @for mundemi me i iteru pa pas nevoje, 
+dallimi @each vs @for se ne @each u dashke me pas patjeter nje strukture te te dhenave e me i teru, ndersa me @for me i teru prej nje vlere minimale deri ne nje vlere maksimale, psh nga 1-10
