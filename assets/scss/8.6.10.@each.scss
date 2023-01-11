@@ -1,0 +1,13 @@
+$sizes: 10, 20, 30, 40, 50;
+
+//me @each i iterojme, kemi me i kriju 4-lloje klasassh
+
+@each $size in $size {
+    .p-#{$size}  {padding: #{$size}px; }
+    .px-#{$size} {padding: #{$size}px; }
+    .py-#{$size} {padding: #{$size}px; }
+    .pt-#{$size} {padding: #{$size}px; }
+    .pb-#{$size} {padding: #{$size}px; }
+    .pr-#{$size} {padding: #{$size}px; }
+    .pl-#{$size} {padding: #{$size}px; }
+}
