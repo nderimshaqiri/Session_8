@@ -1,8 +1,12 @@
 // .p-${i} -> c fare vlere te i-se kemi. i-ja nis nga 10 deri 200 qe rritet nga nje numer ($i from 10 through 200). E bejme nga 1 deri 21 dhe e shumezojm me 10 (.p-#{$i*10}
-
+// Nese dojme "@for $i from 10 through 200" mundemi me bo indeksin .p-#{$i+10} ?
 
 @for $i from 1 through 20 {
     .p-#{$i*10} {
         padding: #{$i*10}px;
     }
 }
+ 
+
+
+
