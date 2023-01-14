@@ -1,0 +1,11 @@
+//Te @while e kemi nje kusht, perderisa... ki me nderru i-n ne i+1 (
+    // Perderisa i-ja eshte me e vogel se 21 atehere gjeneron kodin 
+    // $i: $i + 1;   jemi duke e ndrru i-n ne i+1 qe i bjen qe here e pare eshte 1, pastaj 2 deri sa te mberrin deri 20 jo me shume sepse kemi formulen $i < 21.. 
+
+$i: 1; 
+@while $i < 21 {
+    .p-#{$i*10} {
+        padding: #{$i*10}px;
+    }   
+    $i: $i + 1;  
+}
