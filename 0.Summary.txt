@@ -1,3 +1,10 @@
+LEXO: https://sass-lang.com/
+LEXO: https://sass-lang.com/documentation/
+LEXO: ylber.info
+
+
+Framework: eshte nje kod qe e ka shkru dikush tjeter per me ta lehtu punen, i bere me praktikat e mira dhe i standardizuar.
+
 8.1.GRID Layout
 
 Dallimi ndermjet display:flex dhe display:grid 
@@ -14,7 +21,7 @@ Dallimi ndermjet display:flex dhe display:grid
 
    mund ta perdorim 1 per rreshta dhe kolona grid-template: qe se pari i pranon rreshtat pastaj kolonat 
 
-   mund ta perdorim 1 per gepatt rreshta dhe gepat kolona
+   mund ta perdorim 1 per gepat rreshta dhe gepat kolona
    column-gap: 20px;
    row-gap: 20px;
    gap: 20px;
@@ -146,7 +153,7 @@ Funsionet ne Sass gjithmojne e bejne return (e kthejne nje vlere te caktuar)
 
 
 
-KUSHTET (01:03:20  start unti 01:15:20)
+KUSHTET (start 01:03:20  - until 01:15:20)
 Jane kushtezime,  me vendos nje kushte per te ekzekutuar dicka, nese plotesohet kushti ekzekutohet nje pjese e kodit, nese nuk plotesohet ekzekutohet nje pjese tjeter. 
 P.sh. bankomati (ATM), vendosim kartelen, pastaj PIN-i, nese PIN-i eshte i sakte atehere e bene deposit, terheqje, nese PIN-i eshte i passakte atehere jep error message .
 Kushtet realizohen permes @if.
