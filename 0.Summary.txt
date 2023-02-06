@@ -5,6 +5,9 @@ LEXO: ylber.info
 
 Framework: eshte nje kod qe e ka shkru dikush tjeter per me ta lehtu punen, i bere me praktikat e mira dhe i standardizuar.
 
+
+
+
 8.1.GRID Layout
 
 Dallimi ndermjet display:flex dhe display:grid 
@@ -40,6 +43,14 @@ auto-fit: del sa ka width total. nese i kemi thene auto-fit minmax(80px, 1fr) do
 auto-fill: del sa e caktojme width ndersa pjesa tjeter rezervohet por nuk mbushet, nuk ka shtrirje. Nese i kemi thene auto-fit minmax(80px, 1fr) atehere minimumi do te jete 80px 
 
 minmax(80px, 1fr) - width minimal 80px dhe maksimal 1 fraction 
+
+
+
+
+8.4.GRIDI_12_KOLONESH
+
+ col-6 dmth 6 pjese te gridit
+ col-3 dmth 3 pjese te gridit
 
 
 
